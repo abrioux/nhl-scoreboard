@@ -1,0 +1,32 @@
+{
+  "name": "gql-server",
+  "version": "1.0.0",
+  "description": "A GraphQL wrapper to the NHL API",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.$NODE_ENV.js",
+    "start": "node dist/server",
+    "start:env": "node --require dotenv/config dist/server"
+  },
+  "author": "Alex Brioux",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "apollo-datasource-rest": "0.6.11",
+    "apollo-server": "2.9.16",
+    "graphql": "14.5.8",
+    "lodash.merge": "4.6.2"
+  },
+  "devDependencies": {
+    "@types/lodash.merge": "4.6.6",
+    "@types/webpack-env": "1.14.1",
+    "clean-webpack-plugin": "3.0.0",
+    "dotenv": "8.2.0",
+    "ts-loader": "6.2.1",
+    "typescript": "3.6.4",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-merge": "4.2.2",
+    "webpack-node-externals": "1.7.2"
+  }
+}
