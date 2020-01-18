@@ -49,4 +49,9 @@ export class NHLAPI extends RESTDataSource {
     const response = await this.get(`teams`)
     return response.teams
   }
+
+  async schedule() {
+    const response = await this.get(`schedule`)
+    return response
+  }
 }
