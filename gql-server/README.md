@@ -13,5 +13,5 @@ NODE_ENV=development npm run build
 
 In a new terminal, then run:
 ```
-yarn start
+yarn start:env
 ```
