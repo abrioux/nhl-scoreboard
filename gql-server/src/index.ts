@@ -12,7 +12,6 @@ const server = new ApolloServer({
     }
   },
   introspection: environment.apollo.introspection,
-  playground: environment.apollo.playground,
 })
 
 server

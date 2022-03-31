@@ -12,9 +12,9 @@
   "license": "ISC",
   "keywords": [],
   "dependencies": {
-    "apollo-datasource-rest": "0.6.11",
-    "apollo-server": "2.9.16",
-    "graphql": "14.5.8",
+    "apollo-datasource-rest": "^3.5.2",
+    "apollo-server": "3.6.7",
+    "graphql": "16.3.0",
     "lodash.merge": "4.6.2"
   },
   "devDependencies": {
@@ -23,13 +23,13 @@
     "clean-webpack-plugin": "3.0.0",
     "dotenv": "8.2.0",
     "ts-loader": "6.2.1",
-    "typescript": "3.6.4",
+    "typescript": "4.6.3",
     "webpack": "4.41.2",
     "webpack-cli": "3.3.10",
     "webpack-merge": "4.2.2",
     "webpack-node-externals": "1.7.2"
   },
   "engines": {
-    "node": "12.x"
+    "node": "16.x"
   }
 }
