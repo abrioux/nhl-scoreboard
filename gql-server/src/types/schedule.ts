@@ -3,6 +3,10 @@ export const typeDef = `
     schedule: Schedule
   }
 
+  type Subscription {
+    schedule: Schedule
+  }
+
   type Schedule {
     totalGames: Int
     dates: [Date]
